@@ -1,0 +1,25 @@
+var step = 0
+function draw {
+  setColor('black')
+  step = step + 1
+}
+
+while (step < 9) {
+  right
+  draw
+}
+step = 0
+while (step < 9) {
+  down
+  draw
+}
+step = 0
+while (step < 9) {
+  left
+  draw
+}
+step = 0
+while (step < 9) {
+  up
+  draw
+}
