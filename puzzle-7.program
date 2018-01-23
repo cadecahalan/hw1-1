@@ -1,0 +1,22 @@
+function contdown {
+  while (getColor != 'red') {
+    down
+  }
+  right
+}
+function contright {
+  while (getColor != 'red') {
+    up
+  }
+  right
+}
+function combo {
+  contdown
+  right
+  contup
+  right
+}
+
+combo
+combo
+contdown
