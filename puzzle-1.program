@@ -1,0 +1,18 @@
+var step = 0
+
+while (step < 7) {
+  down
+  step = step + 1
+}
+while (step < 12) {
+  right
+  step = step + 1
+}
+while (step < 14) {
+  up
+  step = step + 1
+}
+while (step < 16) {
+  right
+  step = step + 1
+}
