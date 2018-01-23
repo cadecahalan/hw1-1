@@ -1,0 +1,24 @@
+function direction {
+  if (getColor == 'red') {
+    left
+  }
+  if (getColor == 'blue') {
+    right
+  }
+}
+
+right
+if (getColor == 'red') {
+  up
+  up
+  up
+  direction
+  up
+}
+if (getColor == 'blue') {
+  down
+  down
+  down
+  direction
+  down
+}
