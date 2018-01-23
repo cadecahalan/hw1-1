@@ -1,0 +1,18 @@
+function process {
+  var key = getColor
+  right
+  if (key == 'red') {
+    up
+  }
+  if (key == 'blue) {
+    down
+  }
+  right
+}
+
+right
+process
+process
+process
+right
+right
