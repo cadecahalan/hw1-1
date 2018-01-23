@@ -1,0 +1,26 @@
+function downstream {
+  var countdown = 0
+  while (countdown < 8) {
+    down
+    countdown = countdown + 1
+  }
+  right
+}
+function upstream {
+  var countup = 0
+  while (countup < 8) {
+    up
+    countup = countup + 1
+  }
+  right
+}
+
+downstream
+right
+upstream
+right
+downstream
+right
+upstream
+right
+downstream
