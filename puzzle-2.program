@@ -1,0 +1,25 @@
+var step = 0
+function increment {
+ step = step + 1
+}
+
+while (step < 6) {
+  down
+  increment
+}
+while (step < 9) {
+  right
+  increment
+}
+while (step < 11) {
+  up
+  increment
+}
+while (step < 13) {
+  right
+  increment
+}
+while (step < 16) {
+  down
+  increment
+}
