@@ -1,0 +1,22 @@
+var step = 0
+function incr {
+  step = step + 1
+}
+
+while (getColor == 'white') {
+  down
+  incr
+}
+var key = getColor
+while (step < 5) {
+  down
+  incr
+}
+while (step < 9) {
+  right
+  incr
+  if (step == 7) {
+    setColor(key)
+  }
+}
+up
